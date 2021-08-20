@@ -7,14 +7,13 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <IonButton color="primary" routerLink="/pagina1"> Pagina 1</IonButton>
+  <IonButton color="secondary" (click)="irPagina2()">Pagina 2</IonButton>
+  <IonButton color="tertiary" (click)="irPagina3()">Pagina 3</IonButton>
+  <IonButton color="success">Success</IonButton>
+  <IonButton color="warning">Warning</IonButton>
+  <IonButton color="danger">Danger</IonButton>
+  <IonButton color="light">Light</IonButton>
+  <IonButton color="medium">Medium</IonButton>
+  <IonButton color="dark">Dark</IonButton>
 </ion-content>
